@@ -1,0 +1,178 @@
+﻿ <!--  <input id="eraser" type="button" name="boton" onclick="<?php
+    $arch="";
+    // variable $arc está vacia
+    $arch = fopen ("datos.txt", "w+");
+    fwrite($arch, "");
+    fclose($arch);
+    ?>"> --> 
+
+
+
+alert('<?php echo accion(); ?>');   
+
+  document.write('<?php echo accion(); ?>'); 
+
+
+  ¿ Por que el razonamiento Critico de un avance tecnologico lo define el grupo que exactamente no sabe como se utiliza ?
+
+
+
+
+   #form label {
+    font-size: 20px;
+  }
+
+
+.$_REQUEST['comentario']."'"
+
+
+$sql = "INSERT INTO ranking_values VALUES (1,$valor,$nombre,'o')";
+if (mysqli_query($conn, $sql)) {
+      echo "New record created successfully";
+} else {
+      echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+}
+mysqli_close($conn);
+
+SELECT sum(valor)/(select count(ser_no) from`ranking_values`  ) FROM `ranking_values` 
+
+
+
+    <form action="guardadatos.php" method="post" target="requestqq">
+                            Nombre: <input type="text" name="nombre"><br>
+                            Pregunta: <input type="text" name="email"><br>
+                                <input type="submit" value="Enviar">
+                    
+                            </form>
+
+
+
+
+
+
+
+
+
+
+
+                                display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    height: 1300px;
+}
+
+
+
+
+<div class="form-text" style="
+    /* align-content: center; */
+    /* justify-content: center; */
+    /* width: 100%; */
+    /* display: inline-block; */
+    /* margin: 10px; */
+    /* margin: auto; */
+    margin-left: px;
+    width: 100%;
+"> <textarea class="estilotextarea"></textarea> </div>
+
+
+
+
+
+   var arrayOfThisHead = [];     
+	var tHead = document.createElement("thead");	
+    var tH_row = tHead.insertRow();
+     $.each(data[0], function(k, v) {
+            var cell = tH_row.insertCell();
+            cell.appendChild(document.createTextNode(k));         
+            arrayOfThisHead.push(k);
+        })        
+    var tbl_body = document.createElement("tbody");
+    var odd_even = true;  
+     $.each(data, function() {         
+        var tbl_row = tbl_body.insertRow();
+        tbl_row.className = odd_even ? "odd" : "even";
+     $.each(this, function(k, v) {
+            var cell = tbl_row.insertCell();
+          cell.appendChild(document.createTextNode(v));
+        })        
+        odd_even = !odd_even;               
+    })    
+    $("#result").append(tHead);
+    $("#result").append(tbl_body);
+
+
+
+
+
+
+$sql = "SELECT SER_NO, GENERATE_CODE, WHOWAS FROM `whiteboard_codes` WHERE GENERATE_CODE = "+$gen_code;
+$result = $conn->query($sql);
+
+if ($result->num_rows > 0) {
+   
+    
+    //  substr("abcdef", -1); 
+
+   // header('Location: mobilea.php');  
+
+
+} else {
+   //   header('Location: index.html?nexist=1');  
+}
+
+
+ or $para=="w"
+
+
+
+ for i in metaTags { 
+              if((refAttr = metaTags[i].getAttribute("http-equiv")) && (refAttr == 'refresh')) { 
+              metaTags[i].parentNode.removeChild(metaTags[i]); 
+              } 
+          }  
+
+
+
+
+
+
+<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+						<input class="input100" type="text" name="email" placeholder="Email">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+						</span>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate = "Password is required">
+						<input class="input100" type="password" name="pass" placeholder="Password">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-lock" aria-hidden="true"></i>
+						</span>
+					</div>
+					
+					<div class="container-login100-form-btn">
+						<button class="login100-form-btn">
+							Entrar
+						</button>
+					</div>
+
+
+
+<div class="text-center p-t-12">
+						<span class="txt1">
+							Olvidé
+						</span>
+						<a class="txt2" href="#">
+							Usuario / Contraseña?
+						</a>
+					</div>
+
+					<div class="text-center p-t-136">
+						<a class="txt2" href="#">
+							Crear una cuenta ?
+							<i class="fa fa-long-arrow-right m-l-5" aria-hidden="true"></i>
+						</a>

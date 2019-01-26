@@ -1,0 +1,111 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans);
+
+
+body {
+    background-color: #00b359;
+   margin:0
+  }
+
+#form {
+    width: 250px;
+    margin: 0 auto;
+    height: 50px;
+  }
+  
+  #form p {
+    text-align: center;
+  }
+  
+ 
+  
+  input[type="radio"] {
+    display: none;
+  }
+  
+  label {
+    color: grey;
+  }
+  
+  .clasificacion {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    font-size:60px;
+    text-align: center;
+    height: 30px;
+    margin-top: 10px;
+  }
+  
+  label:hover,
+  label:hover ~ label {
+    color: orange;
+  }
+  
+  input[type="radio"]:checked ~ label {
+    color: orange;
+  }
+  textarea {
+        width: 100%;
+        height: 150px;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        background-color: #f8f8f8;
+        font-size: 16px;
+        resize: none;
+      }
+      input[type=text], select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+      
+      input[type=submit] {
+        width: 100%;
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      input[type=submit]:hover {
+        background-color: #45a049;
+      }
+  
+      .div-q {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+        margin-top: 28%;
+        margin: 28% 10px;
+      }
+
+      .tl-st{
+        font-size: 25px;
+        color: black;
+        font-family: 'PT Sans', sans-serif;
+      }
+
+      #calif-text{
+      text-align: center;
+      font-size: 50px;
+      font-family: arial;
+      font-weight: bold;}
+
+
+      .div-r {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+        margin-top: 30px;
+        height: 500px;
+        width: 500px;
+        display: inline-block;
+      }
